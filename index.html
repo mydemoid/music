@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>solmusic</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <link rel="stylesheet" href="css.css">
+    
+    <style>
+       #btntop{background-color:#3c3c3c;height: 100%;width: 60px;}
+        #btntop:hover{background-color:#222222;}
+        #btntop2{background-color:#7ac64d;height: 100%;width: 70px;border-radius: 0px;}
+        #btntop2:hover{background-color:#222222;}
+        #btntop3{background-color:#3c3c3c;height: 100%;width: 60px;border-radius: 0px;}
+        
+        .glyphicon-remove{font-size: 20px;color: white;}
+        .glyphicon-remove:hover{color: grey;}
+        #iconlap{width: 80%;height: 60%;opacity: .6;}
+        #iconlap:hover{opacity: 1;}
+        #icontab{width: 70%;height: 65%;opacity: .6;}
+        #icontab:hover{opacity: 1;}
+        #iconmob{width: 60%;height: 70%;opacity: .6;}
+        #iconmob:hover{opacity: 1;}
+
+/* head tag css */ 
+        
+        .dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 0px 30px 50px 30px;
+  font-size: px;
+  border: none;
+  cursor: pointer;
+    
+    
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: ;
+  z-index: 1;
+    top: 77px;
+    text-align: left;
+      
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #fc0254;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 1100px){
+    
+    #dis{display: none;}
+    
+}
+
+
+        
+    </style>
+    
+</head>
+<body style="font-style: fontawsome;">
+
+    <div class="container-fluid">
+    <div class="row" style="height: auto;background-color: #3c3c3c;">
+        <div class="col-md-6" align="
+left">
+            <span style="">
+                <img src="colorlib.png" style="height: 55px;padding: 12px;">
+            </span>
+            <span id="dis"><button type="button" class="btn" style="background-color:#222222;width: 140px;height: 60px;color: white;font-size: 16px;color: #9b9b9b;"> +SOLMUSIC</button></span>
+              
+        </div>
+        
+        <div class="col-md-6" align="right">
+         <span id="dis"><button type="button" class="btn" id="btntop"><img src="lap.png" id="iconlap"></button></span>
+           
+            <span id="dis"><button type="button" class="btn" id="btntop"><img src="tab.png" id="icontab"></button></span>
+            
+            <span id="dis"><button type="button" class="btn" id="btntop"><img src="mob.png" id="iconmob"></button></span>
+            
+            <span><button type="button" class="btn" id="btntop2"><a href="" class="glyphicon glyphicon-shopping-cart" style="text-decoration: none;font-size: 25px;color: white;"></a></button></span>
+            
+            <span><button type="button" class="btn" id="btntop3"><a href="" class="glyphicon glyphicon-remove" style="text-decoration: none;"></a> </button></span>
+        
+        </div>
+        
+        </div>
+    
+    </div>
+    
+    <!--heder over-->
+    
+    <div class="container-fluid" style="background-color: #0a182d;">
+       
+        <div class="container" style="width: 90%;">
+         <div class="row" style="padding: 50px 0px 0px 0px;">
+            <div class="col-md-3"><img src="logo.png" style="height: 23px;"> </div>
+             <div class="col-md-6" style="color: white;font-size: 18px;" align="center" id="dis">
+                <div class="row">
+                 <span class="col-md-2">Home</span>
+                 <span class="col-md-2">About</span>
+                 
+                    <span class="col-md-3" align="center">
+                        
+                     <div class="dropdown">
+                      <button class="dropbtn">Pages</button>
+                        <div class="dropdown-content">
+                        <a href="#">Categort</a>
+                         <a href="#">Playlist</a>
+                         <a href="#">Artist</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact</a>
+                    </div>
+                    </div>
+                    </span>
+                    
+                 <span class="col-md-2">News</span>
+                 <span class="col-md-2">Contact</span>
+                 </div></div>
+             <div class="col-md-3" align="right" id="dis">
+                 <div class="row">
+                  <span class="col-1"></span>   
+                 <span class="col-2" style="color: white;opacity: .6;font-size: 18px;">Help</span>
+                 <span class="col-3" style="color: white;font-size: 18px;">| Login</span>
+                 <span class="col-6" style="color: #fc0254;font-size: 18px;">Create an account</span>
+                  </div>
+             </div>
+            
+           </div>
+        </div>
+        
+        <div class="container alert" style="width: 90%;background-color: #4c4c4c;" align="right"><button type="button" class="btn" style="background-color: black;color: white;font-size: 16px; font-weight: bold;">MENU <a class="glyphicon glyphicon-menu-hamburger" style="color: white;text-decoration: none;"></a> </button> </div>
+        
+        <div class="container" style="padding: 40px 0px 50px 0px;width: %;">
+          <div class="row">
+            <div class="col-md-6" style="padding: 50px 20px 100px 20px;" responsive>
+               <div class="row" style="line-height: .9;"><b style="color: #fc0254;font-size: 65px;" >Music</b>&nbsp; &nbsp; &nbsp;<b style="color: white;font-size: 65px;">for everyone.</b></div>
+               <br><br>
+                <div class="row"  style="color: white;font-size: 17px;text-align: justify;opacity: .8;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </div><br><br>
+                
+                <br><br>
+               <div class="row"> 
+              <button type="button" class="btn" style="background-color: #fc0254;color: white;border-radius: 30px;font-size: 15px;padding: 19px 29px 19px 29px;width: 200px;">DOWNLOAD NOW</button>&nbsp; &nbsp; &nbsp; 
+                
+                 
+                <button type="button" class="btn" style="background-color: #383b60;color: white;border-radius: 30px;font-size: 15px;padding: 19px 29px 19px 29px;width: 200px;">START FREE TRIAL</button>
+              </div></div>
+              
+            <div class="col-md-6" align="center"><img src="illustration.png" style="width: 90%;"> </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--div 1 over-->
+    
+    <div class="container-fluid bg-basic">
+        <div class="container" style="padding: 100px 0px 100px 0px;">
+        <div class="row">
+            <div class="col-md"><h1 style="color: black;font-size: 60px;">Unlimited Access to 100K tracks</h1></div>
+            
+            <div class="col-md" style="padding-top: 18px;"> 
+            <p style="color: black;font-size: 17px;line-height: 1.6;text-align: justify;opacity: .7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p><br>
+            
+             <button type="button" class="btn" style="background-color: #fc0254;color: white;border-radius: 30px;font-size: 15px;padding: 19px 40px 19px 40px;">TRY IT NOW</button>
+                
+            </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <!--div 2 over-->
+    
+    <div class="container-fluid" style="padding: 90px 0px 90px 0px;background-color: #0a183d;">
+      
+        <div class="container">
+        <div class="row">
+            <h1 style="padding-bottom: 70px;font-size: 65px;color: white;">How it works</h1>
+            </div>
+          <div class="row">
+             <div class="col-md">
+                <img src="one.png" width="80px" height="70px">
+                 <h3 style="color: white;font-size: 25px;padding-top: 30px;">Create an account</h3><br>
+                 <h4 style="color: white;opacity: .7;line-height: 1.7;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida</h4>
+              </div>
+              <div class="col-md">
+                <img src="two.png" width="80px" height="70px">
+                  <h3 style="color: white;font-size: 25px;padding-top: 30px;">Choose a plan</h3><br>
+                  <h4 style="color: white;opacity: .7;line-height: 1.7;text-align: justify;">Donec in sodales dui, a blandit nunc. Pellen-tesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, portti-tor vitae efficitur non.</h4>
+              </div>
+              <div class="col-md">
+                 <img src="three.png" width="80px" height="70px">
+                  <h3 style="color: white;font-size: 25px;padding-top: 30px;">Download Music</h3><br>
+                  <h4 style="color: white;opacity: .7;line-height: 1.7;text-align: justify;">Ablandit nunc. Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultric-ies volutpat tellus.</h4>
+              </div>
+          
+          </div>
+        </div>
+    
+    </div>
+    
+    <!--div 3 over-->
+    
+    <div class="container-fluid" style="padding: 90px 0px 90px 0px;background-color: white;">
+     
+        <div class="container">
+        
+        <div class="row" style="padding-bottom: 50px;">
+           <div class="col-md"><h1 style="padding-bottom: 30px;font-size: 70px;color: black;">Our Concept & artists</h1></div>
+            <div class="col-md"><h3 style="line-height: 1.7;opacity: .7"><br>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3></div>
+          </div> 
+          
+          <div class="row">
+           <div class="col-md" align="center"> 
+               <img src="soul.png" style="border-radius: 40px;padding-bottom: 20px;">
+               <h3><b>Soul Music</b></h3>
+              </div>
+            <div class="col-md" align="center">
+                 <img src="live.png" style="border-radius: 40px;padding-bottom: 20px;">
+                 <h3><b>Live Concerts</b></h3>
+              </div>
+              <div class="col-md" align="center">
+                <img src="dj.png" style="border-radius: 40px;padding-bottom: 20px;">
+                 <h3><b>Dj Sets</b></h3>
+              </div>
+              <div class="col-md" align="center">
+                <img src="lives.png" style="border-radius: 40px;padding-bottom: 20px;">
+               <h3><b>Live Streems</b></h3>
+              </div>
+          </div> 
+          
+       </div>
+        
+    </div>
+    
+    <!--div 4 over-->
+    
+    <div class="container-fluid" style="padding: 90px 0px 90px 0px;background-color: #0a183d;">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <h1 style="font-size: 55px;color: white;">Subscription from $15/month</h1>
+                <h3 style="font-size: 35px;color: #fc0254;">Start a free trial now</h3><br>
+                <h4 style="font-size: 16px;color: white;opacity: .5;line-height: 1.7;text-align: justify;">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4><br><br>
+                  <button type="button" class="btn" style="background-color: #fc0254;color: white;border-radius: 30px;font-size: 15px;padding: 18px 60px 18px 60px;">TRY IT NOW</button>
+            </div>
+            <div class="col-md-6" align="center">
+                <div class="container" style="width: 90%;height: 90%;background-color: #383b55;;border-radius: 50px;padding: 90px;font-family: inherit;">
+                  <table>
+                <tr style="">
+                 <td><img src="tik.png" style="width: 30px;height: 45px;padding-bottom: 15px;"> </td>
+                    <td style="font-size: 18px;color: white;padding-bottom: 15px;padding-left: 13px;">Play any track</td>
+                 </tr>
+                 <tr>
+                 <td><img src="tik.png" style="width: 30px;height: 45px;padding-bottom: 15px;"> </td>
+                    <td style="font-size: 18px;color: white;padding-bottom: 15px;padding-left: 13px;">Listen offline</td>
+                 </tr>
+                 <tr>
+                 <td><img src="tik.png" style="width: 30px;height: 45px;padding-bottom: 15px;"> </td>
+                    <td style="font-size: 18px;color: white;padding-bottom: 15px;padding-left: 13px;">No ad interruptions</td>
+                 </tr>
+                 <tr>
+                 <td><img src="tik.png" style="width: 30px;height: 45px;padding-bottom: 15px;"> </td>
+                    <td style="font-size: 18px;color: white;padding-bottom: 15px;padding-left: 13px;">Unlimited skips</td>
+                 </tr>
+                 <tr>
+                 <td><img src="tik.png" style="width: 30px;height: 45px;padding-bottom: 15px;"> </td>
+                    <td style="font-size: 18px;color: white;padding-bottom: 15px;padding-left: 13px;">High quality audio</td>
+                 </tr>
+                 <tr>
+                 <td><img src="tik.png" style="width: 30px;height:45px;padding-bottom: 15px;" > </td>
+                    <td style="font-size: 18px;color: white;padding-bottom: 15px;padding-left: 13px;">Shuffle play</td>
+                 </tr>
+              </table>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!--div 5 over-->
+    
+     <div class="container-fluid" style="padding: 70px 0px 70px 0px;background-color: white;">
+     
+        <div class="container">
+        
+        <div class="row" style="padding-bottom: 50px;" >
+           <div class="col-md"><h1 style="padding-bottom: 30px;font-size: 65px;color: black;padding-top: 10px;">Why go Premium</h1></div>
+            <div class="col-md"><h3 style="line-height: 1.7;opacity: .7"><br>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3></div>
+          </div> 
+          
+          <div class="row">
+           <div class="col-md" align="center">
+               <img src="no.png" class="img-circle">
+               <h2><b>No ad interruptions</b></h2>
+               <p style="font-size: 15px;">Consectetur adipiscing elit</p>
+              </div>
+            <div class="col-md" align="center">
+                 <img src="high.png" class="img-circle">
+               <h2><b>High Quality</b></h2>
+               <p style="font-size: 15px;">Ectetur adipiscing elit</p>
+              </div>
+             <div class="col-md" align="center"> 
+               <img src="listen.png" class="img-circle">
+               <h2><b>Listen Offline</b></h2>
+               <p style="font-size: 15px;">Sed do eiusmod tempor</p>
+              </div>
+             <div class="col-md" align="center">
+                <img src="download.png" class="img-circle">
+               <h2><b>Download Music</b></h2>
+               <p style="font-size: 15px;">Adipiscing elit</p>
+              </div>
+          </div> 
+          
+       </div>
+        
+    </div>
+    
+    
+    <!--footer-->
+    
+    
+</body>
+
+</html>
